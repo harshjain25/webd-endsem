@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+}
+
+
+.coverPage {
+    margin: 30px 91px;
+    align-items: center;
+    border-radius: 65px;
+    justify-content: center;
+    height: 400px;
+    width: 85vw;
+    background-image: url("https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFjYm9vayUyMHByb3xlbnwwfHwwfHw%3D&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#heading {
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    background: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.grid-item-1 {
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+
+body {
+    background: #2980b9;
+    background: -webkit-linear-gradient(to right, #2c3e50, rgb(238, 238, 117));
+    background: linear-gradient(to right, rgb(215, 215, 200), rgb(254, 254, 92));
+
+}
+
+.img {
+    max-width: 80%;
+    height: 10%;
+    justify-content: center;
+    border-radius: 5%;
+    margin-left: 10%;
+}
+
+img {
+    padding: 15px;
+}
+
+.Box {
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.scroll {
+    overflow-y: auto;
+    height: 500px;
+    float: left;
+    padding: 1rem;
+}
